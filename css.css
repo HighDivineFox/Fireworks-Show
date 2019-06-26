@@ -1,0 +1,70 @@
+canvas{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+body{
+    margin : 0;
+}
+
+h1{
+    display: block;
+            font-family: 'Arial', Courier, monospace;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            margin-bottom: 0px;
+            text-decoration: none;
+            background-color: #333;
+}
+
+.review{
+    background: #ADD;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 16px;
+}
+
+#settings{
+    float : right;
+    width : 48%;
+    margin-right : 10px;
+}
+
+.slotInput{
+    position: absolute;
+    z-index: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#settings h2{
+    text-align: center;
+    
+    background : #DDDDDD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+table, th, td {
+    margin : 10px;
+    margin-top : 60px;
+    border : 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+td{
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.blank{
+    background-color: #000;
+}
+
+#doubleCanvas{
+    position: absolute;
+    left: 25%;
+}
